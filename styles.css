@@ -1,2 +1,214 @@
-h1 
-color blue 
+@font-face {
+    font-family: 'Raleway';
+    src: url(P2/Police/static/Raleway-Regular.ttf);
+    src: url(P2/Police/static/Raleway-Black.ttf);
+    src: url(P2/Police/static/Raleway-Bold.ttf);        
+}
+body
+{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+/*header*/
+.logo
+{
+    width: 100px;
+    height: 40px;
+    margin: 2%;
+}
+#secnav
+{
+    display:flex;
+}
+.billet
+{
+background-color: blue;
+width: 3%;
+border-radius: 50px;
+}
+.enfant
+{
+    background-color: blue;
+    width: 3%;
+    border-radius: 50px;
+}
+.chien
+{
+    background-color: blue;
+    width: 3%;
+    border-radius: 50px;
+}
+.coeur
+{
+    background-color: blue;
+    width: 3%;
+    border-radius: 50px;
+}
+/*Partie principale*/
+#principale
+{
+    display: flex;
+}
+.premiere
+{
+    background-color:  #F2F2F2;
+    width: 60%;
+    border-radius: 20px; 
+    margin: 5%;
+}
+.hebergements
+{
+    width: 70%;
+    margin: 2%; 
+    border-radius: 20px;   
+    background-color: white;
+    flex-direction: column;
+}
+#test
+{
+    width: 100%;
+    display: flex;
+}
+#test2
+{
+    width: 100%;
+    display: flex;
+}
+.marcus
+{
+    width: 96%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 2%;
+}
+.fred
+{
+    width: 96%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 2%;
+}
+.reisetopia
+{
+    width: 96%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 2%;
+}
+.annie
+{
+    width: 96%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 2%;
+}
+.nicate
+{
+    width: 96%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 2%;
+}
+.febrian
+{
+    width: 96%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 2%;
+}
+/*Partie en haut droite*/
+#deuxieme
+{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 25%;
+}
+.text-aside
+{
+    display: flex;
+    flex-direction: row;
+}
+.populaire
+{
+    background-color: white;
+    width: 30%;
+    height: 30%;
+    margin: 2%; 
+    border-radius: 20px;  
+}
+.guillemot
+{
+    width: 76%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 2%;
+}
+.creative
+{
+    width: 76%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 2%;
+}
+.febrian2
+{
+    width: 76%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 2%;
+}
+/*Fusion super saiyan*/
+#deuxieme
+{
+   width: 40%; 
+}
+/*Section bas du slip*/
+.Vieux-port
+{
+    width: 20%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 2%;
+}
+.Fort-de-Pomègues
+{
+    width: 20%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 2%;
+}
+.Îles-du-Frioul
+{
+    width: 20%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 2%;
+}
+.Parc-National
+{
+    width: 20%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 2%;
+}
+.Notre-Dame
+{
+    width: 20%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 2%;
+}
+.Parc-Longchamp
+{
+    width: 20%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 2%;
+}
+/*Bas de page*/
+#bas-de-page
+{
+    background-color: #F2F2F2;
+    display: flex; 
+   flex-wrap: wrap;  
+   justify-content:space-around
+}
