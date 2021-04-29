@@ -18,40 +18,96 @@ body
 #secnav
 {
     display:flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.billet
+#nav
 {
-background-color: blue;
-width: 3%;
-border-radius: 50px;
+    display: flex;
+    flex-direction: row;
 }
-.enfant
+.nav1
 {
-    background-color: blue;
-    width: 3%;
-    border-radius: 50px;
+    display: flex;
 }
-.chien
+.nav2
 {
-    background-color: blue;
-    width: 3%;
-    border-radius: 50px;
+    display: flex;
 }
-.coeur
+/*barre de recherche*/
+.icone1
 {
-    background-color: blue;
-    width: 3%;
-    border-radius: 50px;
+    background-color: rgb(49, 143, 250);
+    width: 25px;
+    border-bottom-left-radius : 10px;
+    border-top-left-radius: 10px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+}
+#recherche
+{
+    display: flex;
+    align-items: center;
+}
+.bouton
+{
+    background-color: rgb(96, 96, 230);
+    border-bottom-right-radius : 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
+.recherche1
+{
+    padding: 10px;
+}
+/*filtre*/
+#filtres
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icone2
+{
+    border: solid rgb(49, 143, 250);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.icone2-1
+{
+    background-color: cornflowerblue;
+    border-radius: 40px;
+    width: 35px;
+    height: 35px; 
+    align-items: center;
+}
+.texte1
+{
+    margin: 5px;
+}
+/*info*/
+#info
+{
+display: flex;
+align-items: center;
+}
+.info2
+{
+border-radius: 20px;
+margin: 20px;
 }
 /*Partie principale*/
 #principale
 {
     display: flex;
+    justify-content: space-around;
 }
 .premiere
 {
     background-color:  #F2F2F2;
-    width: 60%;
+    width: 100%;
     border-radius: 20px; 
     margin: 5%;
 }
@@ -73,44 +129,9 @@ border-radius: 50px;
     width: 100%;
     display: flex;
 }
-.marcus
+.photo
 {
-    width: 96%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    margin: 2%;
-}
-.fred
-{
-    width: 96%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    margin: 2%;
-}
-.reisetopia
-{
-    width: 96%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    margin: 2%;
-}
-.annie
-{
-    width: 96%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    margin: 2%;
-}
-.nicate
-{
-    width: 96%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    margin: 2%;
-}
-.febrian
-{
-    width: 96%;
+    width: 100px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin: 2%;
@@ -120,38 +141,31 @@ border-radius: 50px;
 {
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 25%;
+    display: flex;
+    flex-direction: column;
 }
-.text-aside
+.populairestext
 {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
-.populaire
+.se1
 {
     background-color: white;
-    width: 30%;
-    height: 30%;
     margin: 2%; 
-    border-radius: 20px;  
+    border-radius: 20px; 
+    display: flex;
 }
-.guillemot
+.se1-1
 {
-    width: 76%;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    margin: 2%;
+    display: flex;
+    flex-direction: column;
 }
-.creative
+.photo2
 {
-    width: 76%;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    margin: 2%;
-}
-.febrian2
-{
-    width: 76%;
+    width: 40%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     margin: 2%;
