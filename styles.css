@@ -26,20 +26,26 @@ p
     align-items: center;
     justify-content: space-between;
 }
-#nav
+
+.nav
 {
     display: flex;
-    flex-direction: row;
+    margin-right: 5%;
 }
 .nav1
 {
     display: flex;
-    margin-right: 5%;
+    text-decoration: none;
 }
 .nav2
 {
     display: flex;
     color: black; 
+    text-decoration: none;
+}
+.nav3
+{
+    display: flex;
     text-decoration: none;
 }
 .header
@@ -149,6 +155,12 @@ margin-right: 20px;
     margin: 2%; 
     border-radius: 20px;   
     background-color: white;
+    box-shadow: #DEEBFF 1px 1px 15px;
+}
+.hebergements:hover
+{
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 .titre-hebergement
 {
@@ -213,6 +225,12 @@ margin-right: 20px;
     border-radius: 20px; 
     display: flex;
     margin-bottom: 35px;
+    box-shadow: #DEEBFF 1px 1px 15px;
+}
+.se1:hover
+{
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 .se1-1
 {
@@ -244,6 +262,17 @@ justify-content: space-around;
     border-top-right-radius: 20px;
     object-fit: cover;
 }
+.Vieux-port:hover
+{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#Vieux-port1
+{
+    border-radius: 20px;
+    margin-bottom: 35px;
+    box-shadow: #deebff 1px 1px 15px;
+}
 .Fort-de-Pomègues
 {
     width: 300px;
@@ -251,6 +280,17 @@ justify-content: space-around;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
+}
+.Fort-de-Pomègues:hover
+{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#Fort-de-Pomègues1
+{
+    border-radius: 20px;
+    margin-bottom: 35px;
+    box-shadow: #deebff 1px 1px 15px;
 }
 .Îles-du-Frioul
 {
@@ -260,6 +300,17 @@ justify-content: space-around;
     border-top-right-radius: 20px;
     object-fit: cover;
 }
+.Îles-du-Frioul:hover
+{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#Îles-du-Frioul1
+{
+    border-radius: 20px;
+    margin-bottom: 35px;
+    box-shadow: #deebff 1px 1px 15px;
+}
 .Parc-National
 {
     width: 250px;
@@ -267,6 +318,17 @@ justify-content: space-around;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
+}
+.Parc-National:hover
+{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#Parc-National1
+{
+    border-radius: 20px;
+    margin-bottom: 35px;
+    box-shadow: #deebff 1px 1px 15px;
 }
 .Notre-Dame
 {
@@ -276,6 +338,17 @@ justify-content: space-around;
     border-top-right-radius: 20px;
     object-fit: cover;
 }
+.Notre-Dame:hover
+{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#Notre-Dame1
+{
+    border-radius: 20px;
+    margin-bottom: 35px;
+    box-shadow: #deebff 1px 1px 15px;
+}
 .Parc-Longchamp
 {
     width: 300px;
@@ -283,6 +356,17 @@ justify-content: space-around;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
+}
+.Parc-Longchamp:hover
+{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#Parc-Longchamp1
+{
+    border-radius: 20px;
+    margin-bottom: 35px;
+    box-shadow: #deebff 1px 1px 15px;
 }
 /*Bas de page*/
 #bas-de-page
@@ -308,6 +392,20 @@ justify-content: space-around;
 @media (max-width: 575.98px) 
 {
     /*Nav*/
+    .nav1
+    {
+       
+        order: 1;
+
+    }
+    .nav2
+    {
+      order: 2;
+    }
+    .nav3
+    {
+        order: 3;
+    }
 
     /*recherche*/
     .bouton{
@@ -349,6 +447,10 @@ justify-content: space-around;
     {
         margin-left: 5%;
     }
+    .se1:hover
+    {
+        transform: none;
+    }
     /*hebergements*/
     .premiere{
         background-color: white;
@@ -369,6 +471,10 @@ justify-content: space-around;
     {
         width: 100%;
     }
+    .hebergements:hover
+{
+    transform: none;
+}
     /*Partie du bas*/
     #deuxiemepartie
     {
@@ -383,6 +489,10 @@ justify-content: space-around;
         border-top-right-radius: 20px;
         object-fit: cover;
     }
+    .Vieux-port:hover
+    {
+        transform: none;
+    }
     .Fort-de-Pomègues
     {
         width: 100%;
@@ -390,6 +500,10 @@ justify-content: space-around;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         object-fit: cover;
+    }
+    .Fort-de-Pomègues:hover
+    {
+        transform: none;
     }
     .Îles-du-Frioul
     {
@@ -399,6 +513,10 @@ justify-content: space-around;
         border-top-right-radius: 20px;
         object-fit: cover;
     }
+    .Îles-du-Frioul:hover
+    {
+        transform: none;
+    }
     .Parc-National
     {
         width: 100%;
@@ -406,6 +524,10 @@ justify-content: space-around;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         object-fit: cover;
+    }
+    .Parc-National:hover
+    {
+        transform: none;
     }
     .Notre-Dame
     {
@@ -415,6 +537,10 @@ justify-content: space-around;
         border-top-right-radius: 20px;
         object-fit: cover;
     }
+    .Notre-Dame:hover
+    {
+        transform: none;
+    }
     .Parc-Longchamp
     {
         width: 100%;
@@ -422,6 +548,10 @@ justify-content: space-around;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         object-fit: cover;
+    }
+    .Parc-Longchamp:hover
+    {
+        transform: none;
     }
     /*Bas de Page*/
     #bas-de-page
