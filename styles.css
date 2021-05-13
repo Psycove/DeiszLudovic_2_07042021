@@ -8,10 +8,16 @@ body
 {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
+/*Police*/
+.p
+{
+    font-size: large;
+}
 /*header*/
 .logo
 {
     width: 100px;
+    margin-right: 50%;
 }
 #secnav
 {
@@ -27,10 +33,15 @@ body
 .nav1
 {
     display: flex;
+    margin-right: 5%;
 }
 .nav2
 {
     display: flex;
+}
+.header
+{
+    margin-left: 3%;
 }
 /*barre de recherche*/
 .icone1
@@ -47,6 +58,10 @@ body
 {
     display: flex;
     align-items: center;
+}
+.iconerecherche
+{
+    display: none;
 }
 .bouton
 {
@@ -68,7 +83,7 @@ body
 #filtres
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .icone2
@@ -102,19 +117,28 @@ align-items: center;
 .info2
 {
 border-radius: 20px;
-margin: 20px;
+margin-right: 20px;
 }
 /*Partie principale*/
 #principale
 {
     display: flex;
     justify-content: space-around;
+    margin-left: 1%;
+}
+.TitrePrincipaleHeberge
+{
+   margin-left: 3%;
+   display: flex;
+   margin-top: 35px;
+   margin-bottom: 5px;
 }
 .premiere
 {
     background-color:  #F2F2F2;
     border-radius: 20px; 
     width: 60%;
+    padding-bottom: 30px;
 }
 .hebergements
 {
@@ -122,6 +146,16 @@ margin: 20px;
     margin: 2%; 
     border-radius: 20px;   
     background-color: white;
+}
+.titre-hebergement
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.textimg
+{
+    margin-left: 15px;
+    margin-bottom: 10px;
 }
 #test
 {
@@ -132,11 +166,12 @@ margin: 20px;
 {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 10px;
 }
 .photo
 {
     width: 96%;
-    height: 100px;
+    height: 120px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin: 2%;
@@ -146,11 +181,11 @@ margin: 20px;
 {
     color: black;
     text-decoration: none;
+    margin-left: 3%;
 }
 /*Partie en haut droite*/
 #deuxieme
 {
-    width: 30%;
     background-color: #F2F2F2;
     border-radius: 20px;
     display: flex;
@@ -174,11 +209,13 @@ margin: 20px;
     margin: 2%; 
     border-radius: 20px; 
     display: flex;
+    margin-bottom: 35px;
 }
 .se1-1
 {
     display: flex;
     flex-direction: column;
+    width: 55%;
 }
 .photo2
 {
@@ -249,11 +286,88 @@ justify-content: space-around;
 {
     background-color: #F2F2F2;
     display: flex; 
-   flex-wrap: wrap;  
-   justify-content:space-around
 }
 .colorend
 {
     color: black;
     text-decoration: none;
+}
+.a-propos
+{
+    margin-right: 20%;
+    margin-left: 3%;
+}
+.hebergements2
+{
+    margin-right: 20%;
+}
+/*version mobile*/
+@media (max-width: 575.98px) 
+{
+    /*Nav*/
+
+    /*recherche*/
+    .bouton{
+        display: none;
+    }
+    .iconerecherche{
+        display: inline;
+        background-color: #0065FC;
+        border-bottom-right-radius : 10px;
+        border-top-right-radius: 10px;
+        padding: 10px;
+    }
+    /*filtre*/
+    #filtres{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 15px;
+    }
+    .icone2{
+        margin-bottom: 5px;
+    }
+    .colorfiltre{
+        margin-right: 200px;
+    }
+    /*Partie haut*/
+    #principale{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    /*les plus polpulaires*/
+    .deuxieme{
+        display: flex ;
+        flex-direction: column;
+        width: 100%;
+    }
+    /*hebergemnts*/
+    .premiere{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #test{
+        display: flex;
+        flex-direction: column;
+    }
+    #test2{
+        display: flex;
+        flex-direction: column;
+    }
+    /*Partie du bas*/
+    #deuxiemepartie
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    /*Bas de Page*/
+    #bas-de-page
+    {
+        display: flex;
+        flex-direction: column;
+    }
 }
