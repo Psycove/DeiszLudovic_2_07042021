@@ -1,19 +1,8 @@
-@font-face {
-    font-family: 'Raleway';
-    src: url(P2/Police/static/Raleway-Light.ttf);
-    src: url(P2/Police/static/Raleway-Regular.ttf);
-    src: url(P2/Police/static/Raleway-Bold.ttf);        
-}
 body
 {
-    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 /*Police*/
-p
-{
-    font-family: 'Raleway';
-    font-style: normal;
-}
 /*header*/
 .logo
 {
