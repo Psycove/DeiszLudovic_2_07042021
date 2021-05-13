@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Raleway';
+    src: url(P2/Police/static/Raleway-Light.ttf);
     src: url(P2/Police/static/Raleway-Regular.ttf);
-    src: url(P2/Police/static/Raleway-Black.ttf);
     src: url(P2/Police/static/Raleway-Bold.ttf);        
 }
 body
@@ -9,9 +9,10 @@ body
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 /*Police*/
-.p
+p
 {
-    font-size: large;
+    font-family: 'Raleway';
+    font-style: normal;
 }
 /*header*/
 .logo
@@ -38,6 +39,8 @@ body
 .nav2
 {
     display: flex;
+    color: black; 
+    text-decoration: none;
 }
 .header
 {
@@ -342,7 +345,11 @@ justify-content: space-around;
         flex-direction: column;
         width: 100%;
     }
-    /*hebergemnts*/
+    .se1-1
+    {
+        margin-left: 5%;
+    }
+    /*hebergements*/
     .premiere{
         background-color: white;
         display: flex;
@@ -358,16 +365,76 @@ justify-content: space-around;
         display: flex;
         flex-direction: column;
     }
+    .hebergements
+    {
+        width: 100%;
+    }
     /*Partie du bas*/
     #deuxiemepartie
     {
         display: flex;
         flex-direction: column;
     }
+    .Vieux-port
+    {
+        width: 100%;
+        height: 150px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        object-fit: cover;
+    }
+    .Fort-de-Pomègues
+    {
+        width: 100%;
+        height: 150px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        object-fit: cover;
+    }
+    .Îles-du-Frioul
+    {
+        width: 100%;
+        height: 150px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        object-fit: cover;
+    }
+    .Parc-National
+    {
+        width: 100%;
+        height: 150px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        object-fit: cover;
+    }
+    .Notre-Dame
+    {
+        width: 100%;
+        height: 150px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        object-fit: cover;
+    }
+    .Parc-Longchamp
+    {
+        width: 100%;
+        height: 150px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        object-fit: cover;
+    }
     /*Bas de Page*/
     #bas-de-page
     {
         display: flex;
         flex-direction: column;
+    }
+    .hebergements2
+    {
+        margin-left: 3%;
+    }
+    .assistance
+    {
+        margin-left: 3%;
     }
 }
