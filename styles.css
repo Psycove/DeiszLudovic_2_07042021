@@ -65,6 +65,7 @@ h5
 {
     display: flex;
     margin-right: 5%;
+    justify-content: center;
 }
 .nav1
 {
@@ -444,17 +445,22 @@ margin-left: 1%;
         display: flex;
         flex-wrap: wrap;
     }
+    .nav
+    {
+        margin-right: 0%;
+    }
     .navHebergements
     {
         order: 3;
-        display: flex;
-        margin-right: 15%;
+        border-bottom: solid 3px #F2F2F2;
+        width: 50%;
+    
     }
     .navAtivités
     {
       order: 2;
-      margin-left: 15%;
       border-bottom: solid 3px #0065FC;
+      width: 50%;
     }
     .navInscription
     {
