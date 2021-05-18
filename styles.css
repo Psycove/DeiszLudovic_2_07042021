@@ -15,6 +15,10 @@ h2
     font-weight:500;
     font-size: 1.2em;
 }
+.marge
+{
+    margin-left: 15px;
+}
 .PremierTitre
 {
     margin-bottom: -1%;
@@ -154,11 +158,18 @@ body
     display: flex;
     align-items: center;
 }
-.icone2 :hover
+.colorfiltres :hover
 {
     background-color: #DEEBFF;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    transition: 0.5s;
 }
-.icone2-1
+.icone3
 {
     background-color: #DEEBFF;
     border-radius: 40px;
@@ -547,11 +558,16 @@ margin-left: 1%;
     }
     .se1-1
     {
-        margin-left: 5%;
+        margin-left: 10%;
     }
     .se1:hover
     {
         transform: none;
+    }
+    .TitrePopulaire
+    {
+        margin-block-end: 0%;
+        margin-block-start: 3%;
     }
     /*hebergements*/
     .premiere{
@@ -578,6 +594,11 @@ margin-left: 1%;
     transform: none;
 }
     /*Partie du bas*/
+    .screencup
+    {
+        display: flex;
+        flex-direction: column;
+    }
     #deuxiemepartie
     {
         display: flex;
@@ -671,7 +692,7 @@ margin-left: 1%;
     }
 }
 /*version tablette*/
-@media (max-width: 1280px)
+@media (min-width: 425px) and (max-width: 1280px)
 {
     #container
     {
@@ -683,6 +704,11 @@ margin-left: 1%;
         flex-wrap: wrap;
         margin-left: 1%;
         margin-bottom: 50px;
+    }
+    .premiere
+    {
+        margin-bottom: 50px;
+        width: 90%;
     }
     #deuxiemepartie {
         display: flex;
@@ -699,6 +725,22 @@ margin-left: 1%;
         box-shadow: #deebff 1px 1px 15px;
         padding-bottom: 5px;
         margin-bottom: 35px;
-        margin-right: 10px;
+        margin-right: 80px;
+    }
+    .screencup
+    {
+        display: flex;
+    }
+}
+@media (min-width: 425px) and (max-width: 882px)
+{
+    .screencup
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #Notre-Dame1 
+    {
+        margin-right: 0%;
     }
 }
