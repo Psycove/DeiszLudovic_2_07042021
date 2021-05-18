@@ -5,6 +5,10 @@ body
     justify-content: center;
 }
 /*Police*/
+p
+{
+    color: black;
+}
 h1
 {
     font-weight: 800;
@@ -44,6 +48,10 @@ h2
     font-weight: 800;
     margin-left: 3%;
 }
+h4
+{
+    color: black;
+}
 h5
 {
     font-family: 'Raleway', sans-serif;
@@ -53,6 +61,14 @@ h5
 .colorend
 {
     font-size: 1em;
+}
+.marge
+{
+    color: black;
+}
+.TitrePopulaire1
+{
+    margin-block-end: 0.20em;
 }
 /*Centrage*/
 #container
@@ -234,6 +250,7 @@ margin-right: 20px;
 {
     margin-top: 5px;
     margin-bottom: 5px;
+    color: black;
 }
 .textimg
 {
@@ -314,6 +331,11 @@ margin-right: 20px;
     border-bottom-left-radius: 20px;
     margin: 2%;
     object-fit: cover;
+}
+.Link
+{
+    display: flex;
+    width: 100%;
 }
 /*2eme partie*/
 #deuxiemepartie
