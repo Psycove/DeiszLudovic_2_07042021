@@ -195,6 +195,7 @@ body
 .texte1
 {
     margin: 5px;
+    white-space: nowrap;
 }
 /*info*/
 #info
