@@ -70,10 +70,48 @@ h5
 {
     color: black;
 }
+/*couleur icone*/
+.bouton
+{
+    color: white
+}
+.fa-sistrix
+{
+    color: white
+}
+.fa-money-bill-wave 
+{
+    color: #0065FC
+}
+.fa-child
+{
+    color: #0065FC
+}
+.fa-heart
+{
+    color: #0065FC
+}
+.fa-dog
+{
+    color: #0065FC
+}
+.fa-info
+{
+    color: #0065FC
+}
+.fa-star
+{
+    color: #0065FC
+}
+.fa-star-white
+{
+    color: #F2F2F2;
+}
 /*Centrage*/
 .container
 {
     max-width: 1400px;
+    width: 100%;
 }
 body
 {
@@ -98,13 +136,13 @@ body
     margin-right: 5%;
     justify-content: center;
 }
+
 .nav1
 {
     display: flex;
-    color:#0065FC;
+    color: black; 
     text-decoration: none;
-    border-top: solid 3px #0065FC;
-    padding-top: 25px;
+    padding-top: 29px;
 }
 .nav2
 {
@@ -112,6 +150,14 @@ body
     color: black; 
     text-decoration: none;
     padding-top: 29px;
+}
+.nav1:hover, .nav2:hover
+{
+    display: flex;
+    color:#0065FC;
+    text-decoration: none;
+    border-top: solid 3px #0065FC;
+    padding-top: 25px;
 }
 .nav3
 {
@@ -474,16 +520,24 @@ margin-left: 1%;
     padding-bottom: 5px;
 }
 /*Bas de page*/
+.containerfooter
+{
+    width: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+}
 body
 {
+    margin: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 #bas-de-page
 {
-    background-color: #F2F2F2;
     display: flex; 
-    position: absolute;
+    max-width: 1400px;
     width: 100%;
 }
 .colorend
@@ -532,7 +586,7 @@ body
     .nav2
     {
         padding-top: 0em;
-    }
+    } 
     .nav3
     {
         margin-right: 20px;
