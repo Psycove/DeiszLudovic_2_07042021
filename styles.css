@@ -4,6 +4,10 @@ body
     display: flex;
     justify-content: center;
 }
+a:link 
+{ 
+     text-decoration:none; 
+} 
 /*Police*/
 p
 {
@@ -176,10 +180,7 @@ body
 .colorfiltres :hover
 {
     background-color: #DEEBFF;
-    border-radius: 30px;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
+    transition: 0.3s;
 }
 .icone3
 {
