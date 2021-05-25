@@ -67,7 +67,7 @@ h5
     color: black;
 }
 /*Centrage*/
-#container
+.container
 {
     max-width: 1400px;
 }
@@ -97,7 +97,7 @@ body
 .nav1
 {
     display: flex;
-    color: blue;
+    color:#0065FC;
     text-decoration: none;
     border-top: solid 3px #0065FC;
     padding-top: 25px;
@@ -111,6 +111,7 @@ body
 }
 .nav3
 {
+    color:#0065FC;
     display: flex;
     text-decoration: none;
     padding-top: 29px;
@@ -149,6 +150,8 @@ body
 .recherche1
 {
     padding: 10px;
+    padding-bottom: 11px;
+    border: 2px solid #F2F2F2;
 }
 /*filtre*/
 .colorfiltre
@@ -165,7 +168,7 @@ body
 }
 .icone2
 {
-    border: solid #DEEBFF;
+    border: solid #F2F2F2;
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -174,19 +177,16 @@ body
 {
     background-color: #DEEBFF;
     border-radius: 30px;
-    display: flex;
-    align-items: center;
     margin: 0px;
     padding: 0px;
     width: 100%;
-    transition: 0.5s;
 }
 .icone3
 {
     background-color: #DEEBFF;
     border-radius: 40px;
-    width: 35px;
-    height: 35px; 
+    width: 45px;
+    height: 45px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -194,7 +194,7 @@ body
 }
 .texte1
 {
-    margin: 5px;
+    margin: 10px;
     white-space: nowrap;
 }
 /*info*/
@@ -473,10 +473,17 @@ margin-left: 1%;
     padding-bottom: 5px;
 }
 /*Bas de page*/
+body
+{
+    display: flex;
+    flex-direction: column;
+}
 #bas-de-page
 {
     background-color: #F2F2F2;
     display: flex; 
+    position: absolute;
+    width: 100%;
 }
 .colorend
 {
@@ -614,9 +621,9 @@ margin-left: 1%;
         width: 100%;
     }
     .hebergements:hover
-{
+    {
     transform: none;
-}
+    }
     /*Partie du bas*/
     .screencup
     {
